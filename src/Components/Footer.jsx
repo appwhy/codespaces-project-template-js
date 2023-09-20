@@ -18,6 +18,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import weixin from "../images/weixin.png";
 
 /**
  * 💡 Learning resources
@@ -112,7 +113,17 @@ const Footer = (props) => {
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
         )}
+        {true && (
+          // <a
+          //   href={`https://www.youtube.com/c/${youTube}`}
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+          // >
+            <img src={weixin} alt="weixin" className="socialIcon" />
+          // </a>
+        )}
       </div>
+      
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
       </p>
